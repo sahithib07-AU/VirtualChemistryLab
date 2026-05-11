@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Chemistry Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>Virtual Chemistry Lab</h2>
+
+        <div class="nav-links">
+
+    <a href="index.html">Home</a>
+    <a href="experiments.html">Experiments</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="periodic.html">Periodic Table</a>
+
+    <a href="videos.html">Videos</a>
+
+    <a href="chatbot.html">AI Chatbot</a>
+
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+
+    <button onclick="toggleTheme()">
+        Theme
+    </button>
+
+</div>
+
+    </nav>
+
+    <section class="hero">
+
+        <h1>Chemistry Quiz</h1>
+
+        <p>
+            Test your chemistry knowledge
+        </p>
+
+    </section>
+
+    <div class="quiz-box">
+
+        <h2 id="question">
+            Question appears here
+        </h2>
+
+        <div class="quiz-buttons">
+
+            <button onclick="checkQuizAnswer(0)" id="btn0"></button>
+
+            <button onclick="checkQuizAnswer(1)" id="btn1"></button>
+
+            <button onclick="checkQuizAnswer(2)" id="btn2"></button>
+
+            <button onclick="checkQuizAnswer(3)" id="btn3"></button>
+
+        </div>
+
+        <h2 id="score"></h2>
+
+        <button onclick="restartQuiz()" id="restartBtn">
+            Restart Quiz
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

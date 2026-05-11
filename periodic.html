@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Periodic Table</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>Virtual Chemistry Lab</h2>
+
+        <div class="nav-links">
+
+    <a href="index.html">Home</a>
+    <a href="experiments.html">Experiments</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="periodic.html">Periodic Table</a>
+
+    <a href="videos.html">Videos</a>
+
+    <a href="chatbot.html">AI Chatbot</a>
+
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+
+    <button onclick="toggleTheme()">
+        Theme
+    </button>
+
+</div>
+
+    </nav>
+
+    <section class="hero">
+
+        <h1>Interactive Periodic Table</h1>
+
+        <p>
+            Click elements to learn about them
+        </p>
+
+    </section>
+
+    <div class="periodic-table">
+
+        <div class="element" onclick="showElement('Hydrogen','Atomic Number: 1')">
+            H
+        </div>
+
+        <div class="element" onclick="showElement('Helium','Atomic Number: 2')">
+            He
+        </div>
+
+        <div class="element" onclick="showElement('Lithium','Atomic Number: 3')">
+            Li
+        </div>
+
+        <div class="element" onclick="showElement('Carbon','Atomic Number: 6')">
+            C
+        </div>
+
+        <div class="element" onclick="showElement('Nitrogen','Atomic Number: 7')">
+            N
+        </div>
+
+        <div class="element" onclick="showElement('Oxygen','Atomic Number: 8')">
+            O
+        </div>
+
+        <div class="element" onclick="showElement('Sodium','Atomic Number: 11')">
+            Na
+        </div>
+
+        <div class="element" onclick="showElement('Chlorine','Atomic Number: 17')">
+            Cl
+        </div>
+
+    </div>
+
+    <div class="info-box">
+
+        <h2 id="elementName">
+            Click an Element
+        </h2>
+
+        <p id="elementInfo"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

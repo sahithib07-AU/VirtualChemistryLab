@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>Virtual Chemistry Lab</h2>
+
+        <div class="nav-links">
+
+    <a href="index.html">Home</a>
+    <a href="experiments.html">Experiments</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="periodic.html">Periodic Table</a>
+
+    <a href="videos.html">Videos</a>
+
+    <a href="chatbot.html">AI Chatbot</a>
+
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+
+    <button onclick="toggleTheme()">
+        Theme
+    </button>
+
+</div>
+
+    </nav>
+
+    <div class="login-container">
+
+        <div class="login-box">
+
+            <h1>Student Login</h1>
+
+            <input type="text"
+            id="username"
+            placeholder="Enter Username">
+
+            <input type="password"
+            id="password"
+            placeholder="Enter Password">
+
+            <button onclick="login()">
+                Login
+            </button>
+
+            <h2 id="loginResult"></h2>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
